@@ -21,6 +21,7 @@
 		459668E919C496A000C991FE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 459668CB19C496A000C991FE /* UIKit.framework */; };
 		459668F119C496A000C991FE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 459668EF19C496A000C991FE /* InfoPlist.strings */; };
 		459668F319C496A000C991FE /* AlarmClockTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 459668F219C496A000C991FE /* AlarmClockTests.m */; };
+		459668FE19C496E900C991FE /* AlarmClock.m in Sources */ = {isa = PBXBuildFile; fileRef = 459668FD19C496E900C991FE /* AlarmClock.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		459668EE19C496A000C991FE /* AlarmClockTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AlarmClockTests-Info.plist"; sourceTree = "<group>"; };
 		459668F019C496A000C991FE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		459668F219C496A000C991FE /* AlarmClockTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlarmClockTests.m; sourceTree = "<group>"; };
+		459668FC19C496E900C991FE /* AlarmClock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlarmClock.h; sourceTree = "<group>"; };
+		459668FD19C496E900C991FE /* AlarmClock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlarmClock.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +118,8 @@
 				459668D619C496A000C991FE /* AlarmClockAppDelegate.h */,
 				459668D719C496A000C991FE /* AlarmClockAppDelegate.m */,
 				459668D919C496A000C991FE /* Main.storyboard */,
+				459668FC19C496E900C991FE /* AlarmClock.h */,
+				459668FD19C496E900C991FE /* AlarmClock.m */,
 				459668DC19C496A000C991FE /* AlarmClockViewController.h */,
 				459668DD19C496A000C991FE /* AlarmClockViewController.m */,
 				459668DF19C496A000C991FE /* Images.xcassets */,
@@ -250,6 +255,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				459668FE19C496E900C991FE /* AlarmClock.m in Sources */,
 				459668D419C496A000C991FE /* main.m in Sources */,
 				459668DE19C496A000C991FE /* AlarmClockViewController.m in Sources */,
 				459668D819C496A000C991FE /* AlarmClockAppDelegate.m in Sources */,
