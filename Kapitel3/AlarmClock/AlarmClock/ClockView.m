@@ -14,10 +14,28 @@
 {
     self = [super initWithFrame:frame];
     if (self) {
-        // Initialization code
+        self.calendar = [NSCalendar currentCalendar];
+        self.time = [NSDate date];
     }
     return self;
 }
+
+/// Aufruf aus Storyboard
+- (id)initWithCoder:(NSCoder *)aDecoder {
+    self = [super initWithCoder:aDecoder];
+    if (self) {
+        self.calendar = [NSCalendar currentCalendar];
+        self.time = [NSDate date];
+    }
+    return self;
+}
+
+//// Wird nach der Initialisierung aufgefufen
+//- (void)awakeFromNib {
+//    [super awakeFromNib];
+//    self.calendar = [NSCalendar currentCalendar];
+//    self.time = [NSDate date];;
+//}
 
 /// Berechnet die Koordinaten des Mittelpunktes
 - (CGPoint)midPoint {
@@ -36,7 +54,7 @@
 {
     CGContextRef theContext = UIGraphicsGetCurrentContext();
     CGRect theBounds = self.bounds;
-    CGFloat theRadius = CGRectGetWidth(theBounds) / 2.05;
+    CGFloat theRadius = CGRectGetWidth(theBounds) / 2.0;
     
     // Zeichnet den Kreis
     CGContextSaveGState(theContext);
