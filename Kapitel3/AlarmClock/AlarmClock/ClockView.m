@@ -8,6 +8,15 @@
 
 #import "ClockView.h"
 
+@interface ClockView ()
+
+@property (nonatomic, strong) NSTimer *timer;
+
+- (void)startAnimation;
+- (void)stopAnimation;
+
+@end
+
 @implementation ClockView
 
 - (id)initWithFrame:(CGRect)frame
@@ -27,7 +36,12 @@
         self.calendar = [NSCalendar currentCalendar];
         self.time = [NSDate date];
     }
+//    [self startAnimation];
     return self;
+}
+
+- (void)dealloc {
+    [self stopAnimation];
 }
 
 //// Wird nach der Initialisierung aufgefufen
@@ -128,6 +142,22 @@
     CGContextMoveToPoint(theContext, theCenter.x, theCenter.y);
     CGContextAddLineToPoint(theContext, thePoint.x, thePoint.y);
     CGContextStrokePath(theContext);
+}
+
+- (void)startAnimation {
+    if (self.timer == nil) {
+        self.timer = [NSTimer scheduledTimerWithTimeInterval:0.5 target:self selector:@selector(updateTimer:) userInfo:nil repeats:YES];
+    }
+}
+
+- (void)stopAnimation {
+    [self.timer invalidate];
+    self.timer = nil;
+}
+
+- (void)updateTimer:(NSTimer *)inTimer {
+    self.time = [NSDate date];
+    [self setNeedsDisplay];
 }
 
 @end
