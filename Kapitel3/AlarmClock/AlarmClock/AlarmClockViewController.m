@@ -7,8 +7,11 @@
 //
 
 #import "AlarmClockViewController.h"
+#import "ClockView.h"
 
 @interface AlarmClockViewController ()
+
+@property (weak, nonatomic) IBOutlet ClockView *clockView;
 
 @end
 
@@ -26,4 +29,13 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (void)viewDidAppear:(BOOL)animated {
+    [super viewDidAppear:animated];
+    [self.clockView startAnimation];
+}
+
+- (void)viewWillDisappear:(BOOL)animated {
+    [self.clockView stopAnimation];
+    [super viewWillDisappear:animated];
+}
 @end
