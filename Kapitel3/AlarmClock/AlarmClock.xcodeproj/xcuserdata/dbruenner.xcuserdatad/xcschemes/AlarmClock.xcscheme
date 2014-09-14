@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "459668C319C496A000C991FE"
+               BlueprintIdentifier = "45EA8D1D19C5927A008DEFC4"
                BuildableName = "AlarmClock.app"
                BlueprintName = "AlarmClock"
                ReferencedContainer = "container:AlarmClock.xcodeproj">
@@ -32,7 +32,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "459668E419C496A000C991FE"
+               BlueprintIdentifier = "45EA8D3E19C5927A008DEFC4"
                BuildableName = "AlarmClockTests.xctest"
                BlueprintName = "AlarmClockTests"
                ReferencedContainer = "container:AlarmClock.xcodeproj">
@@ -42,7 +42,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "459668C319C496A000C991FE"
+            BlueprintIdentifier = "45EA8D1D19C5927A008DEFC4"
             BuildableName = "AlarmClock.app"
             BlueprintName = "AlarmClock"
             ReferencedContainer = "container:AlarmClock.xcodeproj">
@@ -61,7 +61,7 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "459668C319C496A000C991FE"
+            BlueprintIdentifier = "45EA8D1D19C5927A008DEFC4"
             BuildableName = "AlarmClock.app"
             BlueprintName = "AlarmClock"
             ReferencedContainer = "container:AlarmClock.xcodeproj">
@@ -79,7 +79,7 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "459668C319C496A000C991FE"
+            BlueprintIdentifier = "45EA8D1D19C5927A008DEFC4"
             BuildableName = "AlarmClock.app"
             BlueprintName = "AlarmClock"
             ReferencedContainer = "container:AlarmClock.xcodeproj">
