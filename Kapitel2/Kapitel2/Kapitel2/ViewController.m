@@ -19,6 +19,8 @@
     [super viewDidLoad];
     [self.textView setText:@""];
     [self writeLog:NSStringFromSelector(_cmd)];
+    self.model = [[Model alloc] initWithName:@"Lorem Ipsum"];
+    [self writeLog:[NSString stringWithFormat:@"Model.name: %@", [self.model name]]];
 }
 
 - (void)didReceiveMemoryWarning
@@ -38,4 +40,10 @@
                             inLogString]];
 }
 
+- (IBAction)updateCountOfDroids:(UIStepper *)sender {
+    int theValue = [sender value];
+    
+    [self.model updateDroids:theValue];
+    [self writeLog:[NSString stringWithFormat:@"countOfObjects = %d", [self.model countOfObjects]]];
+}
 @end

@@ -21,6 +21,7 @@
 		4568377119C743060090C22F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4568375319C743060090C22F /* UIKit.framework */; };
 		4568377919C743070090C22F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4568377719C743070090C22F /* InfoPlist.strings */; };
 		4568377B19C743070090C22F /* Kapitel2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4568377A19C743070090C22F /* Kapitel2Tests.m */; };
+		457A316319C884AF00032429 /* Droid.m in Sources */ = {isa = PBXBuildFile; fileRef = 457A316219C884AF00032429 /* Droid.m */; };
 		457C6C1319C84E910006B56D /* Model.m in Sources */ = {isa = PBXBuildFile; fileRef = 457C6C1219C84E910006B56D /* Model.m */; };
 /* End PBXBuildFile section */
 
@@ -54,6 +55,8 @@
 		4568377619C743070090C22F /* Kapitel2Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Kapitel2Tests-Info.plist"; sourceTree = "<group>"; };
 		4568377819C743070090C22F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		4568377A19C743070090C22F /* Kapitel2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Kapitel2Tests.m; sourceTree = "<group>"; };
+		457A316119C884AF00032429 /* Droid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Droid.h; path = ../Droid.h; sourceTree = "<group>"; };
+		457A316219C884AF00032429 /* Droid.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Droid.m; path = ../Droid.m; sourceTree = "<group>"; };
 		457C6C1119C84E910006B56D /* Model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Model.h; sourceTree = "<group>"; };
 		457C6C1219C84E910006B56D /* Model.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Model.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -117,6 +120,8 @@
 			children = (
 				4568375E19C743060090C22F /* AppDelegate.h */,
 				4568375F19C743060090C22F /* AppDelegate.m */,
+				457A316119C884AF00032429 /* Droid.h */,
+				457A316219C884AF00032429 /* Droid.m */,
 				4568376719C743060090C22F /* Images.xcassets */,
 				4568376119C743060090C22F /* Main.storyboard */,
 				457C6C1119C84E910006B56D /* Model.h */,
@@ -257,6 +262,7 @@
 				4568376619C743060090C22F /* ViewController.m in Sources */,
 				4568376019C743060090C22F /* AppDelegate.m in Sources */,
 				4568375C19C743060090C22F /* main.m in Sources */,
+				457A316319C884AF00032429 /* Droid.m in Sources */,
 				457C6C1319C84E910006B56D /* Model.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
