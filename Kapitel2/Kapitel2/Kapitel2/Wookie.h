@@ -1,18 +1,18 @@
 //
-//  Droid.h
+//  Wookie.h
 //  Kapitel2
 //
 //  Created by David Brünner on 16.09.14.
 //  Copyright (c) 2014 David Brünner. All rights reserved.
 //
 
-#import "Model.h"
+#import <Foundation/Foundation.h>
 
-@interface Droid : NSObject
+@interface Wookie : NSObject
 
-@property (copy) NSString *droidID;
+@property (copy) NSString *name;
 
-- (id)initWithID:(int)inID;
+- (id)initWithName:(NSString *)inName;
 - (void)sayName;
 
 @end

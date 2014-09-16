@@ -23,6 +23,9 @@
 		4568377B19C743070090C22F /* Kapitel2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4568377A19C743070090C22F /* Kapitel2Tests.m */; };
 		457A316319C884AF00032429 /* Droid.m in Sources */ = {isa = PBXBuildFile; fileRef = 457A316219C884AF00032429 /* Droid.m */; };
 		457C6C1319C84E910006B56D /* Model.m in Sources */ = {isa = PBXBuildFile; fileRef = 457C6C1219C84E910006B56D /* Model.m */; };
+		45C0651319C897940003E7CC /* ProtocolDroid.m in Sources */ = {isa = PBXBuildFile; fileRef = 45C0651219C897940003E7CC /* ProtocolDroid.m */; };
+		45C0651619C897F50003E7CC /* AstroDroid.m in Sources */ = {isa = PBXBuildFile; fileRef = 45C0651519C897F50003E7CC /* AstroDroid.m */; };
+		45C0651919C8A1590003E7CC /* Wookie.m in Sources */ = {isa = PBXBuildFile; fileRef = 45C0651819C8A1590003E7CC /* Wookie.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +62,12 @@
 		457A316219C884AF00032429 /* Droid.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Droid.m; path = ../Droid.m; sourceTree = "<group>"; };
 		457C6C1119C84E910006B56D /* Model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Model.h; sourceTree = "<group>"; };
 		457C6C1219C84E910006B56D /* Model.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Model.m; sourceTree = "<group>"; };
+		45C0651119C897940003E7CC /* ProtocolDroid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProtocolDroid.h; sourceTree = "<group>"; };
+		45C0651219C897940003E7CC /* ProtocolDroid.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProtocolDroid.m; sourceTree = "<group>"; };
+		45C0651419C897F50003E7CC /* AstroDroid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AstroDroid.h; sourceTree = "<group>"; };
+		45C0651519C897F50003E7CC /* AstroDroid.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AstroDroid.m; sourceTree = "<group>"; };
+		45C0651719C8A1590003E7CC /* Wookie.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Wookie.h; sourceTree = "<group>"; };
+		45C0651819C8A1590003E7CC /* Wookie.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Wookie.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,15 +129,21 @@
 			children = (
 				4568375E19C743060090C22F /* AppDelegate.h */,
 				4568375F19C743060090C22F /* AppDelegate.m */,
+				45C0651419C897F50003E7CC /* AstroDroid.h */,
+				45C0651519C897F50003E7CC /* AstroDroid.m */,
 				457A316119C884AF00032429 /* Droid.h */,
 				457A316219C884AF00032429 /* Droid.m */,
 				4568376719C743060090C22F /* Images.xcassets */,
 				4568376119C743060090C22F /* Main.storyboard */,
 				457C6C1119C84E910006B56D /* Model.h */,
 				457C6C1219C84E910006B56D /* Model.m */,
+				45C0651119C897940003E7CC /* ProtocolDroid.h */,
+				45C0651219C897940003E7CC /* ProtocolDroid.m */,
 				4568375619C743060090C22F /* Supporting Files */,
 				4568376419C743060090C22F /* ViewController.h */,
 				4568376519C743060090C22F /* ViewController.m */,
+				45C0651719C8A1590003E7CC /* Wookie.h */,
+				45C0651819C8A1590003E7CC /* Wookie.m */,
 			);
 			path = Kapitel2;
 			sourceTree = "<group>";
@@ -259,11 +274,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				45C0651319C897940003E7CC /* ProtocolDroid.m in Sources */,
+				45C0651919C8A1590003E7CC /* Wookie.m in Sources */,
 				4568376619C743060090C22F /* ViewController.m in Sources */,
 				4568376019C743060090C22F /* AppDelegate.m in Sources */,
 				4568375C19C743060090C22F /* main.m in Sources */,
 				457A316319C884AF00032429 /* Droid.m in Sources */,
 				457C6C1319C84E910006B56D /* Model.m in Sources */,
+				45C0651619C897F50003E7CC /* AstroDroid.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

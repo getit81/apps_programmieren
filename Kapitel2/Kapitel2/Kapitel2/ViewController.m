@@ -46,4 +46,8 @@
     [self.model updateDroids:theValue];
     [self writeLog:[NSString stringWithFormat:@"countOfObjects = %d", [self.model countOfObjects]]];
 }
+
+- (IBAction)listModel:(id)sender {
+    [self.model listDroids];
+}
 @end
