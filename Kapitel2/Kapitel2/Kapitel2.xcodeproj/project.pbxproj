@@ -21,6 +21,7 @@
 		4568377119C743060090C22F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4568375319C743060090C22F /* UIKit.framework */; };
 		4568377919C743070090C22F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4568377719C743070090C22F /* InfoPlist.strings */; };
 		4568377B19C743070090C22F /* Kapitel2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4568377A19C743070090C22F /* Kapitel2Tests.m */; };
+		457C6C1319C84E910006B56D /* Model.m in Sources */ = {isa = PBXBuildFile; fileRef = 457C6C1219C84E910006B56D /* Model.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		4568377619C743070090C22F /* Kapitel2Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Kapitel2Tests-Info.plist"; sourceTree = "<group>"; };
 		4568377819C743070090C22F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		4568377A19C743070090C22F /* Kapitel2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Kapitel2Tests.m; sourceTree = "<group>"; };
+		457C6C1119C84E910006B56D /* Model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Model.h; sourceTree = "<group>"; };
+		457C6C1219C84E910006B56D /* Model.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Model.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,11 +117,13 @@
 			children = (
 				4568375E19C743060090C22F /* AppDelegate.h */,
 				4568375F19C743060090C22F /* AppDelegate.m */,
+				4568376719C743060090C22F /* Images.xcassets */,
 				4568376119C743060090C22F /* Main.storyboard */,
+				457C6C1119C84E910006B56D /* Model.h */,
+				457C6C1219C84E910006B56D /* Model.m */,
+				4568375619C743060090C22F /* Supporting Files */,
 				4568376419C743060090C22F /* ViewController.h */,
 				4568376519C743060090C22F /* ViewController.m */,
-				4568376719C743060090C22F /* Images.xcassets */,
-				4568375619C743060090C22F /* Supporting Files */,
 			);
 			path = Kapitel2;
 			sourceTree = "<group>";
@@ -252,6 +257,7 @@
 				4568376619C743060090C22F /* ViewController.m in Sources */,
 				4568376019C743060090C22F /* AppDelegate.m in Sources */,
 				4568375C19C743060090C22F /* main.m in Sources */,
+				457C6C1319C84E910006B56D /* Model.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -456,6 +462,7 @@
 				4568378019C743070090C22F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4568378119C743070090C22F /* Build configuration list for PBXNativeTarget "Kapitel2Tests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +471,7 @@
 				4568378319C743070090C22F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
