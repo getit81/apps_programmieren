@@ -12,6 +12,12 @@
 #import "AstroDroid.h"
 #import "Wookie.h"
 
+@interface Model ()
+
+@property (strong) NSMutableArray *objects;
+
+@end
+
 @implementation Model {
     @private
     NSMutableArray *objects;
@@ -20,12 +26,13 @@
 @synthesize status;
 @synthesize creation;
 @synthesize name;
+@synthesize objects;
 
 - (instancetype)init {
     self = [super init];
     if (self) {
         self.creation = [NSDate date];
-        objects = [[NSMutableArray alloc] init];
+        self.objects = [[NSMutableArray alloc] init];
     }
     return self;
 }

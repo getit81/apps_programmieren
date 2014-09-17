@@ -26,6 +26,7 @@
 		45C0651319C897940003E7CC /* ProtocolDroid.m in Sources */ = {isa = PBXBuildFile; fileRef = 45C0651219C897940003E7CC /* ProtocolDroid.m */; };
 		45C0651619C897F50003E7CC /* AstroDroid.m in Sources */ = {isa = PBXBuildFile; fileRef = 45C0651519C897F50003E7CC /* AstroDroid.m */; };
 		45C0651919C8A1590003E7CC /* Wookie.m in Sources */ = {isa = PBXBuildFile; fileRef = 45C0651819C8A1590003E7CC /* Wookie.m */; };
+		45C6911E19C9764600C6ECF2 /* NSString+ReverseString.m in Sources */ = {isa = PBXBuildFile; fileRef = 45C6911D19C9764600C6ECF2 /* NSString+ReverseString.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,6 +69,8 @@
 		45C0651519C897F50003E7CC /* AstroDroid.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AstroDroid.m; sourceTree = "<group>"; };
 		45C0651719C8A1590003E7CC /* Wookie.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Wookie.h; sourceTree = "<group>"; };
 		45C0651819C8A1590003E7CC /* Wookie.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Wookie.m; sourceTree = "<group>"; };
+		45C6911C19C9764600C6ECF2 /* NSString+ReverseString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+ReverseString.h"; sourceTree = "<group>"; };
+		45C6911D19C9764600C6ECF2 /* NSString+ReverseString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+ReverseString.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,6 +140,8 @@
 				4568376119C743060090C22F /* Main.storyboard */,
 				457C6C1119C84E910006B56D /* Model.h */,
 				457C6C1219C84E910006B56D /* Model.m */,
+				45C6911C19C9764600C6ECF2 /* NSString+ReverseString.h */,
+				45C6911D19C9764600C6ECF2 /* NSString+ReverseString.m */,
 				45C0651119C897940003E7CC /* ProtocolDroid.h */,
 				45C0651219C897940003E7CC /* ProtocolDroid.m */,
 				4568375619C743060090C22F /* Supporting Files */,
@@ -281,6 +286,7 @@
 				4568375C19C743060090C22F /* main.m in Sources */,
 				457A316319C884AF00032429 /* Droid.m in Sources */,
 				457C6C1319C84E910006B56D /* Model.m in Sources */,
+				45C6911E19C9764600C6ECF2 /* NSString+ReverseString.m in Sources */,
 				45C0651619C897F50003E7CC /* AstroDroid.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
