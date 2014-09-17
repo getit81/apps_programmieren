@@ -46,6 +46,7 @@
 }
 
 - (void)updateDroids:(int)inValue {
+    [self willChangeValueForKey:@"countOfObjects"];
     if (inValue > [objects count]) {
         int theRemainder = inValue % 3;
         Droid *theDroid;
@@ -57,10 +58,12 @@
         } else {
             theDroid = [[AstroDroid alloc] initWithID:inValue];
         }
+        [self setStatus:[theDroid droidID]];
         [objects addObject:theDroid];
     } else if (inValue < [objects count]) {
         [objects removeLastObject];
     }
+    [self didChangeValueForKey:@"countOfObjects"];
 }
 
 - (int)countOfObjects {

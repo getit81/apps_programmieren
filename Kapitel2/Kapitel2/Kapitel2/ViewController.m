@@ -10,6 +10,8 @@
 
 @interface ViewController ()
 
+@property (strong, nonatomic) IBOutlet UILabel *countLabel;
+
 @end
 
 @implementation ViewController
@@ -21,6 +23,18 @@
     [self writeLog:NSStringFromSelector(_cmd)];
     self.model = [[Model alloc] initWithName:@"Lorem Ipsum"];
     [self writeLog:[NSString stringWithFormat:@"Model.name: %@", [self.model name]]];
+}
+
+- (void)viewDidAppear:(BOOL)animated {
+    [super viewDidAppear:animated];
+    [self.model addObserver:self forKeyPath:@"status" options:NSKeyValueObservingOptionNew | NSKeyValueObservingOptionOld context:NULL];
+    [self.model addObserver:self forKeyPath:@"countOfObjects" options:NSKeyValueObservingOptionNew context:NULL];
+}
+
+- (void)viewWillDisappear:(BOOL)animated {
+    [self.model removeObserver:self forKeyPath:@"status"];
+    [self.model removeObserver:self forKeyPath:@"countOfObjects"];
+    [super viewWillDisappear:animated];
 }
 
 - (void)didReceiveMemoryWarning
@@ -50,4 +64,14 @@
 - (IBAction)listModel:(id)sender {
     [self.model listDroids];
 }
+
+- (void)observeValueForKeyPath:(NSString *)keyPath ofObject:(id)object change:(NSDictionary *)change context:(void *)context {
+    if ([keyPath isEqualToString:@"status"]) {
+        NSLog(@"[+] Old status: %@", [change valueForKey:NSKeyValueChangeOldKey]);
+        NSLog(@"[+] New status: %@", [change valueForKey:NSKeyValueChangeNewKey]);
+    } else if ([keyPath isEqualToString:@"countOfObjects"]) {
+        [self.countLabel setText:[NSString stringWithFormat:@"%d", [object countOfObjects]]];
+    }
+}
+
 @end
