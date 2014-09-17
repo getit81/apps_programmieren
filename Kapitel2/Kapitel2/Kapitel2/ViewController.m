@@ -23,6 +23,10 @@
     [self writeLog:NSStringFromSelector(_cmd)];
     self.model = [[Model alloc] initWithName:@"Lorem Ipsum"];
     [self writeLog:[NSString stringWithFormat:@"Model.name: %@", [self.model name]]];
+    
+    Log *theLog = [[Log alloc] init];
+    theLog.delegate = self;
+    [theLog logToConsole:[self.model name]];
 }
 
 - (void)viewDidAppear:(BOOL)animated {
@@ -72,6 +76,10 @@
     } else if ([keyPath isEqualToString:@"countOfObjects"]) {
         [self.countLabel setText:[NSString stringWithFormat:@"%d", [object countOfObjects]]];
     }
+}
+
+- (void)logDidFinishLogging:(Log *)inLog {
+    [self writeLog:@"Finished logging to console"];
 }
 
 @end

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4507F78A19C9D33D00A37D28 /* Log.m in Sources */ = {isa = PBXBuildFile; fileRef = 4507F78919C9D33D00A37D28 /* Log.m */; };
 		4568375019C743060090C22F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4568374F19C743060090C22F /* Foundation.framework */; };
 		4568375219C743060090C22F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4568375119C743060090C22F /* CoreGraphics.framework */; };
 		4568375419C743060090C22F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4568375319C743060090C22F /* UIKit.framework */; };
@@ -40,6 +41,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4507F78819C9D33D00A37D28 /* Log.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Log.h; sourceTree = "<group>"; };
+		4507F78919C9D33D00A37D28 /* Log.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Log.m; sourceTree = "<group>"; };
 		4568374C19C743060090C22F /* Kapitel2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kapitel2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4568374F19C743060090C22F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		4568375119C743060090C22F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -137,6 +140,8 @@
 				457A316119C884AF00032429 /* Droid.h */,
 				457A316219C884AF00032429 /* Droid.m */,
 				4568376719C743060090C22F /* Images.xcassets */,
+				4507F78819C9D33D00A37D28 /* Log.h */,
+				4507F78919C9D33D00A37D28 /* Log.m */,
 				4568376119C743060090C22F /* Main.storyboard */,
 				457C6C1119C84E910006B56D /* Model.h */,
 				457C6C1219C84E910006B56D /* Model.m */,
@@ -226,6 +231,7 @@
 		4568374419C743060090C22F /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = "";
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "___FULLUSERNAME___";
 				TargetAttributes = {
@@ -285,6 +291,7 @@
 				4568376019C743060090C22F /* AppDelegate.m in Sources */,
 				4568375C19C743060090C22F /* main.m in Sources */,
 				457A316319C884AF00032429 /* Droid.m in Sources */,
+				4507F78A19C9D33D00A37D28 /* Log.m in Sources */,
 				457C6C1319C84E910006B56D /* Model.m in Sources */,
 				45C6911E19C9764600C6ECF2 /* NSString+ReverseString.m in Sources */,
 				45C0651619C897F50003E7CC /* AstroDroid.m in Sources */,
