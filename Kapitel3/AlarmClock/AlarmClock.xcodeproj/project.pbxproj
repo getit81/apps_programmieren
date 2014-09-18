@@ -115,12 +115,12 @@
 		45EA8D2719C5927A008DEFC4 /* AlarmClock */ = {
 			isa = PBXGroup;
 			children = (
-				45FCA38519CB2C510037061F /* ClockView.h */,
-				45FCA38619CB2C510037061F /* ClockView.m */,
 				45EA8D3019C5927A008DEFC4 /* AlarmClockAppDelegate.h */,
 				45EA8D3119C5927A008DEFC4 /* AlarmClockAppDelegate.m */,
 				45EA8D3619C5927A008DEFC4 /* AlarmClockViewController.h */,
 				45EA8D3719C5927A008DEFC4 /* AlarmClockViewController.m */,
+				45FCA38519CB2C510037061F /* ClockView.h */,
+				45FCA38619CB2C510037061F /* ClockView.m */,
 				45EA8D3919C5927A008DEFC4 /* Images.xcassets */,
 				45EA8D3319C5927A008DEFC4 /* Main.storyboard */,
 				45EA8D2819C5927A008DEFC4 /* Supporting Files */,
