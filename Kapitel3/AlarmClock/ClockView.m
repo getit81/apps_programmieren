@@ -66,7 +66,40 @@
 }
 
 - (void)drawClockHands {
+    CGContextRef theContext = UIGraphicsGetCurrentContext();
+    CGPoint theCenter = [self midPoint];
+    CGFloat theRadius = CGRectGetWidth(self.bounds) / 2.0;
+    NSDateComponents *theComponents = [self.calendar components:NSHourCalendarUnit
+                                       | NSMinuteCalendarUnit
+                                       | NSSecondCalendarUnit
+                                                       fromDate:self.time];
+    CGFloat theSecond = theComponents.second * M_PI / 30.0;
+    CGFloat theMinute = theComponents.minute * M_PI / 30.0;
+    CGFloat theHour = (theComponents.hour + theComponents.minute / 60.0) * M_PI / 6.0;
     
+    // Stundenzeiger zeichnen
+    CGPoint thePoint = [self pointWithRadius:theRadius * 0.7 angle:theHour];
+    CGContextSetRGBStrokeColor(theContext, 0.25, 0.25, 0.25, 1.0);
+    CGContextSetLineWidth(theContext, 8.0);
+    CGContextSetLineCap(theContext, kCGLineCapButt);
+    CGContextMoveToPoint(theContext, theCenter.x, theCenter.y);
+    CGContextAddLineToPoint(theContext, thePoint.x, thePoint.y);
+    CGContextStrokePath(theContext);
+    
+    // Minutenzeiger zeichnen
+    thePoint = [self pointWithRadius:theRadius * 0.9 angle:theMinute];
+    CGContextSetLineWidth(theContext, 4.0);
+    CGContextMoveToPoint(theContext, theCenter.x, theCenter.y);
+    CGContextAddLineToPoint(theContext, thePoint.x, thePoint.y);
+    CGContextStrokePath(theContext);
+    
+    // Sekundezeiger zeichnen
+    thePoint = [self pointWithRadius:theRadius * 0.95 angle:theSecond];
+    CGContextSetLineWidth(theContext, 2.0);
+    CGContextSetRGBStrokeColor(theContext, 1.0, 0.0, 0.0, 1.0);
+    CGContextMoveToPoint(theContext, theCenter.x, theCenter.y);
+    CGContextAddLineToPoint(theContext, thePoint.x, thePoint.y);
+    CGContextStrokePath(theContext);
 }
 
 @end
