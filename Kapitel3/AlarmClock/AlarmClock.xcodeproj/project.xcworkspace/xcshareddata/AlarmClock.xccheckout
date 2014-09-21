@@ -12,20 +12,24 @@
 	<dict>
 		<key>66FA18FE-5963-4EF5-971B-D55BD1022BB6</key>
 		<string>https://github.com/getit81/apps_programmieren.git</string>
+		<key>C109ADC73A39FEE20250AEA1E511F5D58EB622FD</key>
+		<string>https://github.com/getit81/apps_programmieren.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>Kapitel3/AlarmClock/AlarmClock.xcodeproj/project.xcworkspace</string>
+	<string>Kapitel3/AlarmClock/AlarmClock.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>66FA18FE-5963-4EF5-971B-D55BD1022BB6</key>
+		<string>../../../../../AlarmClock</string>
+		<key>C109ADC73A39FEE20250AEA1E511F5D58EB622FD</key>
 		<string>../../../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>https://github.com/getit81/apps_programmieren.git</string>
 	<key>IDESourceControlProjectVersion</key>
-	<integer>110</integer>
+	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>66FA18FE-5963-4EF5-971B-D55BD1022BB6</string>
+	<string>C109ADC73A39FEE20250AEA1E511F5D58EB622FD</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
@@ -35,6 +39,14 @@
 			<string>66FA18FE-5963-4EF5-971B-D55BD1022BB6</string>
 			<key>IDESourceControlWCCName</key>
 			<string>AlarmClock</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>C109ADC73A39FEE20250AEA1E511F5D58EB622FD</string>
+			<key>IDESourceControlWCCName</key>
+			<string>apps_programmieren</string>
 		</dict>
 	</array>
 </dict>
