@@ -14,9 +14,25 @@
 {
     self = [super initWithFrame:frame];
     if (self) {
-        // Initialization code
+        self.calendar = [NSCalendar currentCalendar];
+        self.time = [NSDate date];
     }
     return self;
+}
+
+//- (id)initWithCoder:(NSCoder *)aDecoder {
+//    self = [super initWithCoder:aDecoder];
+//    if (self) {
+//        self.calendar = [NSCalendar currentCalendar];
+//        self.time = [NSDate date];
+//    }
+//    return self;
+//}
+
+- (void)awakeFromNib {
+    [super awakeFromNib];
+    self.calendar = [NSCalendar currentCalendar];
+    self.time = [NSDate date];
 }
 
 - (CGPoint)midPoint {
