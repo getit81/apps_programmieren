@@ -13,6 +13,8 @@
 
 @property (weak, nonatomic) IBOutlet ClockView *clockView;
 @property (strong, nonatomic) IBOutletCollection(ClockView) NSArray *clockViews;
+@property (weak, nonatomic) IBOutlet UISwitch *animationSwitch;
+- (IBAction)switchAnimation:(UISwitch *)sender;
 
 @end
 
@@ -30,17 +32,27 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (void)startAnimations {
+    [self.clockViews makeObjectsPerformSelector:@selector(startAnimation)];
+}
+
 - (void)viewDidAppear:(BOOL)animated {
     [super viewDidAppear:animated];
-    for (ClockView *theView in self.clockViews) {
-        [theView startAnimation];
-    }
+    [self switchAnimation:self.animationSwitch];
+}
+
+- (void)stopAnimations {
+    [self.clockViews makeObjectsPerformSelector:@selector(stopAnimation)];
 }
 
 - (void)viewWillDisappear:(BOOL)animated {
-    for (ClockView *theView in self.clockViews) {
-        [theView stopAnimation];
-    }
     [super viewWillDisappear:animated];
+}
+- (IBAction)switchAnimation:(UISwitch *)sender {
+    if (sender.on) {
+        [self startAnimations];
+    } else {
+        [self stopAnimations];
+    }
 }
 @end

@@ -33,10 +33,6 @@
                                 <rect key="frame" x="9" y="348" width="100" height="100"/>
                                 <color key="backgroundColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                             </view>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="yST-3a-rSm" customClass="ClockView">
-                                <rect key="frame" x="111" y="454" width="100" height="100"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                            </view>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="WVx-fQ-Q7H" customClass="ClockView">
                                 <rect key="frame" x="214" y="454" width="100" height="100"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -45,18 +41,24 @@
                                 <rect key="frame" x="9" y="454" width="100" height="100"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </view>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="eNa-Gx-JZb">
+                                <rect key="frame" x="137" y="488" width="51" height="31"/>
+                                <connections>
+                                    <action selector="switchAnimation:" destination="vXZ-lx-hvc" eventType="valueChanged" id="RBa-iJ-Flv"/>
+                                </connections>
+                            </switch>
                         </subviews>
                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                     <connections>
-                        <outletCollection property="clockViews" destination="OCN-id-Dw1" id="gMA-X7-YWE"/>
-                        <outletCollection property="clockViews" destination="zoJ-sB-djn" id="Dtg-hj-BVN"/>
-                        <outletCollection property="clockViews" destination="4iU-w5-ZF8" id="EU5-0b-DDs"/>
-                        <outletCollection property="clockViews" destination="roR-ic-OIv" id="OVg-TC-igB"/>
-                        <outletCollection property="clockViews" destination="2QM-gN-JRj" id="hVG-6q-SZV"/>
-                        <outletCollection property="clockViews" destination="WVx-fQ-Q7H" id="T3M-Kv-1tD"/>
-                        <outletCollection property="clockViews" destination="yST-3a-rSm" id="36N-uH-CBr"/>
+                        <outlet property="animationSwitch" destination="eNa-Gx-JZb" id="hOp-xC-QJ6"/>
+                        <outletCollection property="clockViews" destination="OCN-id-Dw1" id="avl-cp-ete"/>
+                        <outletCollection property="clockViews" destination="zoJ-sB-djn" id="OgS-0B-gzf"/>
+                        <outletCollection property="clockViews" destination="4iU-w5-ZF8" id="rRO-0w-20k"/>
+                        <outletCollection property="clockViews" destination="roR-ic-OIv" id="xPK-km-KZ8"/>
+                        <outletCollection property="clockViews" destination="2QM-gN-JRj" id="BlI-rx-lEV"/>
+                        <outletCollection property="clockViews" destination="WVx-fQ-Q7H" id="mOI-xB-v5E"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
