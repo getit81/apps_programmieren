@@ -5,19 +5,19 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>F25DE237-3000-43EA-A242-63C116718EA0</string>
+	<string>6E7ED087-FA0F-4049-AD57-37DB48DAC9E2</string>
 	<key>IDESourceControlProjectName</key>
-	<string>test</string>
+	<string>ViewsUndViewController</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>69082322-2ABA-4311-A2D3-096BBE45C124</key>
+		<key>DA02F1F6-C215-4992-9BAA-407C4D2A594A</key>
 		<string>https://github.com/getit81/apps_programmieren.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>dvd/test/test.xcodeproj/project.xcworkspace</string>
+	<string>dvd/ViewsUndViewController/ViewsUndViewController.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>69082322-2ABA-4311-A2D3-096BBE45C124</key>
+		<key>DA02F1F6-C215-4992-9BAA-407C4D2A594A</key>
 		<string>../../../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
@@ -25,16 +25,16 @@
 	<key>IDESourceControlProjectVersion</key>
 	<integer>110</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>69082322-2ABA-4311-A2D3-096BBE45C124</string>
+	<string>DA02F1F6-C215-4992-9BAA-407C4D2A594A</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>69082322-2ABA-4311-A2D3-096BBE45C124</string>
+			<string>DA02F1F6-C215-4992-9BAA-407C4D2A594A</string>
 			<key>IDESourceControlWCCName</key>
-			<string>test</string>
+			<string>apps_programmieren</string>
 		</dict>
 	</array>
 </dict>

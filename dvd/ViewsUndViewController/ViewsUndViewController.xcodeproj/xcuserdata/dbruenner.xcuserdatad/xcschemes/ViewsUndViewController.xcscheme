@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0600"
+   LastUpgradeVersion = "0510"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,23 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "45818CBD19D19666002CDE2E"
+               BlueprintIdentifier = "4567DF8E19D1CCAB003B29CF"
                BuildableName = "ViewsUndViewController.app"
                BlueprintName = "ViewsUndViewController"
-               ReferencedContainer = "container:ViewsUndViewController.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "NO"
-            buildForArchiving = "NO"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "45818CD619D19666002CDE2E"
-               BuildableName = "ViewsUndViewControllerTests.xctest"
-               BlueprintName = "ViewsUndViewControllerTests"
                ReferencedContainer = "container:ViewsUndViewController.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -46,7 +32,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "45818CD619D19666002CDE2E"
+               BlueprintIdentifier = "4567DFAF19D1CCAB003B29CF"
                BuildableName = "ViewsUndViewControllerTests.xctest"
                BlueprintName = "ViewsUndViewControllerTests"
                ReferencedContainer = "container:ViewsUndViewController.xcodeproj">
@@ -56,7 +42,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "45818CBD19D19666002CDE2E"
+            BlueprintIdentifier = "4567DF8E19D1CCAB003B29CF"
             BuildableName = "ViewsUndViewController.app"
             BlueprintName = "ViewsUndViewController"
             ReferencedContainer = "container:ViewsUndViewController.xcodeproj">
@@ -75,7 +61,7 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "45818CBD19D19666002CDE2E"
+            BlueprintIdentifier = "4567DF8E19D1CCAB003B29CF"
             BuildableName = "ViewsUndViewController.app"
             BlueprintName = "ViewsUndViewController"
             ReferencedContainer = "container:ViewsUndViewController.xcodeproj">
@@ -93,7 +79,7 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "45818CBD19D19666002CDE2E"
+            BlueprintIdentifier = "4567DF8E19D1CCAB003B29CF"
             BuildableName = "ViewsUndViewController.app"
             BlueprintName = "ViewsUndViewController"
             ReferencedContainer = "container:ViewsUndViewController.xcodeproj">
