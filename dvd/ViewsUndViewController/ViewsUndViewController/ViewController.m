@@ -14,14 +14,14 @@
 
 @implementation ViewController
 
-- (void)viewDidLoad {
+- (void)viewDidLoad
+{
     [super viewDidLoad];
-
-    CGRect viewRect = CGRectMake(0.0, 0.0, 200.0, 200.0);
-    UIView *view = [[UIView alloc] initWithFrame:viewRect];
+	// Do any additional setup after loading the view, typically from a nib.
 }
 
-- (void)didReceiveMemoryWarning {
+- (void)didReceiveMemoryWarning
+{
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }

@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "4567DF8E19D1CCAB003B29CF"
+               BlueprintIdentifier = "45A5931119D1CD35007FE2A8"
                BuildableName = "ViewsUndViewController.app"
                BlueprintName = "ViewsUndViewController"
                ReferencedContainer = "container:ViewsUndViewController.xcodeproj">
@@ -32,7 +32,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "4567DFAF19D1CCAB003B29CF"
+               BlueprintIdentifier = "45A5933219D1CD35007FE2A8"
                BuildableName = "ViewsUndViewControllerTests.xctest"
                BlueprintName = "ViewsUndViewControllerTests"
                ReferencedContainer = "container:ViewsUndViewController.xcodeproj">
@@ -42,7 +42,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "4567DF8E19D1CCAB003B29CF"
+            BlueprintIdentifier = "45A5931119D1CD35007FE2A8"
             BuildableName = "ViewsUndViewController.app"
             BlueprintName = "ViewsUndViewController"
             ReferencedContainer = "container:ViewsUndViewController.xcodeproj">
@@ -61,7 +61,7 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "4567DF8E19D1CCAB003B29CF"
+            BlueprintIdentifier = "45A5931119D1CD35007FE2A8"
             BuildableName = "ViewsUndViewController.app"
             BlueprintName = "ViewsUndViewController"
             ReferencedContainer = "container:ViewsUndViewController.xcodeproj">
@@ -79,7 +79,7 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "4567DF8E19D1CCAB003B29CF"
+            BlueprintIdentifier = "45A5931119D1CD35007FE2A8"
             BuildableName = "ViewsUndViewController.app"
             BlueprintName = "ViewsUndViewController"
             ReferencedContainer = "container:ViewsUndViewController.xcodeproj">
