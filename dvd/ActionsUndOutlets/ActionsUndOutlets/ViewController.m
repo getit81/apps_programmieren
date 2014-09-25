@@ -17,13 +17,35 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    if (self.switchStatusSwitch.isOn) {
+        [self.switchStatusLabel setText:@"On"];
+    } else {
+        [self.switchStatusLabel setText:@"Off"];
+    }
+    [self.sliderValueLabel setText:[NSString stringWithFormat:@"%.2f",self.sliderStatusSlider.value]];
 }
 
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (IBAction)buttonPressed:(UIButton *)sender {
+    NSLog(@"%@", [self.myTextField text]);
+    [self.blackView setBackgroundColor:[UIColor greenColor]];
+}
+
+- (IBAction)switchSwitched:(UISwitch *)sender {
+    if (sender.isOn) {
+        [self.switchStatusLabel setText:@"On"];
+    } else {
+        [self.switchStatusLabel setText:@"Off"];
+    }
+}
+
+- (IBAction)sliderMoved:(UISlider *)sender {
+    [self.sliderValueLabel setText:[NSString stringWithFormat:@"%.2f", sender.value]];
 }
 
 @end
